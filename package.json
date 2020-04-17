@@ -20,8 +20,8 @@
     "type": "git",
     "url": "https://github.com/parzh/decimal.js-tiny.git"
   },
-  "main": "decimal",
-  "browser": "decimal.js",
+  "main": "decimal.min.js",
+  "browser": "decimal.min.js",
   "types": "decimal.d.ts",
   "author": {
     "name": "Dima Parzhitsky",
@@ -30,7 +30,8 @@
   "license": "MIT",
   "scripts": {
     "test": "node ./test/test.js",
-    "build": "uglifyjs decimal.js -c -m -o decimal.min.js"
+    "build": "uglifyjs decimal.js -c -m -o decimal.min.js",
+    "prepublishOnly": "npm test && npm run build"
   },
   "devDependencies": {
     "uglify-js": "3.9.1"
