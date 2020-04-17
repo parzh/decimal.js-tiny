@@ -1,6 +1,6 @@
 {
-  "name": "decimal.js-light",
-  "description": "An arbitrary-precision Decimal type for JavaScript.",
+  "name": "decimal.js-tiny",
+  "description": "An even smaller fork of MikeMcl's decimal.js",
   "version": "2.5.0",
   "keywords": [
     "arbitrary",
@@ -16,17 +16,17 @@
     "bigint",
     "bignum"
   ],
-  "repository" : {
+  "repository": {
     "type": "git",
-    "url": "https://github.com/MikeMcl/decimal.js-light.git"
+    "url": "https://github.com/parzh/decimal.js-tiny.git"
   },
   "main": "decimal",
   "module": "decimal.mjs",
   "browser": "decimal.js",
   "types": "decimal.d.ts",
   "author": {
-    "name": "Michael Mclaughlin",
-    "email": "M8ch88l@gmail.com"
+    "name": "Dima Parzhitsky",
+    "email": "parzhitsky@gmail.com"
   },
   "license": "MIT",
   "scripts": {
