@@ -31,5 +31,8 @@
   "scripts": {
     "test": "node ./test/test.js",
     "build": "uglifyjs decimal.js -c -m -o decimal.min.js"
+  },
+  "devDependencies": {
+    "uglify-js": "3.9.1"
   }
 }
