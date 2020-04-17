@@ -21,7 +21,6 @@
     "url": "https://github.com/parzh/decimal.js-tiny.git"
   },
   "main": "decimal",
-  "module": "decimal.mjs",
   "browser": "decimal.js",
   "types": "decimal.d.ts",
   "author": {
